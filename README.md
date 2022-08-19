@@ -55,3 +55,25 @@
 ```
 
 </details> 
+
+## 2607	Providers' City in Alphabetical Order L-1
+
+<details>
+<summary>Click Here</summary>
+
+```
+    SELECT DISTINCT city FROM providers ORDER BY city ASC
+```
+
+</details> 
+
+## 2608	Higher and Lower Price L-1
+
+<details>
+<summary>Click Here</summary>
+
+```
+    SELECT max(price) as price, min(price) as price FROM products
+```
+
+</details> 
